@@ -1,0 +1,50 @@
+* {
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.navbar-form {
+width: 100%;
+
+}
+.container {
+  padding: 0;
+  margin-right: : 0;
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+
+}
+
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+
+
+.herorow {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.thumbnail>img {
+
+  height: 400px;
+  width: 400px;
+}
+
+#dialog {
+  text-align: center;
+
+}
